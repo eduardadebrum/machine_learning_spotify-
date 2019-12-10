@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'machine_learning_spotify'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile group: 'nz.ac.waikato.cms.weka', name: 'weka-stable', version: '3.8.0'
+
+    compile group: 'se.michaelthelin.spotify', name: 'spotify-web-api-java', version: '4.2.0'
+
+    compileOnly 'org.projectlombok:lombok:1.18.10'
+
+    annotationProcessor 'org.projectlombok:lombok:1.18.10'
+
+    compile group: 'net.sf.supercsv', name: 'super-csv', version: '2.4.0'
+
+
+}

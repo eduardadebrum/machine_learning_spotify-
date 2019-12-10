@@ -1,0 +1,102 @@
+@relation musicas
+
+@attribute name {'Your Love Is King - Remastered','Smooth Operator - Remastered','Hang On to Your Love - Remastered','The Sweetest Taboo - Remastered','Is It a Crime - Remastered','Never as Good as the First Time - Remastered','Jezebel - Remastered','Love Is Stronger Than Pride - Remastered','Paradise - Remastered Version','Nothing Can Come Between Us - Remastered','No Ordinary Love - Remastered','Kiss of Life - Remastered','Feel No Pain - Remastered','Bullet Proof Soul - Remastered','Cherish the Day - Remastered','Pearls - Remastered','By Your Side - Remastered','Immigrant - Remastered','Flow - Remastered','King of Sorrow - Remastered','Primeiro Avião','Noites de Berlim',Basta,'Tango Novo','Sétima Maior',Partindo,'Sobre Você',Talvez,Livre,Muda,'Pra Ser','Chacarera da Saudade','Fotos Instantâneas','Naquela Esquina','Chacarera da Saudade - Ao Vivo','Basta - Ao Vivo','Partindo - Ao Vivo','Pra Ser - Ao Vivo','Noites de Berlim - Ao Vivo','Martes - Ao Vivo','Segunda-Feira - Ao Vivo','Sétima Maior - Ao Vivo','Carta aos Desinteressados - Ao Vivo','Sinto Muito Blues - Ao Vivo','Montagem Sai do Chão','Um Morto Muito Louco',Tchutchuca,'Vira de Ladinho','Dona Gigi / Atoladinha',Descontrolada,'Tchutchuca Treme o Bumbum','Planeta Dominado / Tropa de Elite / Rap Glamurosa','Namorar Pelado / Beija Beija Ta Calor','Uh Papai Chegou / 4X4 / Trair a Minha Namorada / Red Label ou Ice','Tranquilão / Vou Desafiar Você / Perder a Linha','Treme o Bumbum','Cerol na Mão','Me Usa','Copo de Vinho','Só Zueira','Rap da Felicidade / Rap das Armas','É o Pente','Ai Ai Ui Ui / Vem Kikando / Passinho do Bonequinho','Mistura Louca','choque térmico - ao vivo','quando a bad bater - ao vivo','sofrendo feito um louco - ao vivo','mendigando amor - ao vivo','ignore - ao vivo','água com açúcar - ao vivo','meu investimento - ao vivo','princesa não levanta - ao vivo','moça chique - ao vivo','motel paraíso - ao vivo','tática infalível - ao vivo','puxando o rodo - ao vivo','cê vai perder essa mulher - ao vivo','flores, amor e pudim - ao vivo','boa memória - ao vivo','a - ao vivo','pot-pourri: te vivo / sinais / você não sabe o que é amor / meteoro / amar não é pecado - ao vivo','acordando o prédio - ao vivo','sofazinho - ao vivo','vingança - ao vivo'}
+@attribute acousticness numeric
+@attribute danceability numeric
+@attribute durationMs numeric
+@attribute energy numeric
+@attribute instrumentalness numeric
+@attribute key numeric
+@attribute liveness numeric
+@attribute loudness numeric
+@attribute speechiness numeric
+@attribute tempo numeric
+@attribute timeSignature numeric
+@attribute valence numeric
+@attribute preferencia {GOSTO,NAO_GOSTO}
+
+@data
+'Your Love Is King - Remastered',0.482,0.728,221293,0.492,0.000062,9,0.0354,-5.054,0.0269,134.616,3,0.482,GOSTO
+'Smooth Operator - Remastered',0.0758,0.687,256147,0.684,0.000808,9,0.0441,-5.181,0.032,119.193,4,0.0758,GOSTO
+'Hang On to Your Love - Remastered',0.112,0.84,269240,0.713,0.000004,7,0.0783,-6.593,0.0296,107.897,4,0.112,GOSTO
+'The Sweetest Taboo - Remastered',0.191,0.718,265187,0.913,0.0482,10,0.347,-6.777,0.0466,91.648,4,0.191,GOSTO
+'Is It a Crime - Remastered',0.375,0.438,380933,0.458,0.0127,5,0.27,-6.492,0.0354,122.136,3,0.375,GOSTO
+'Never as Good as the First Time - Remastered',0.183,0.668,236267,0.895,0.0132,6,0.111,-5.459,0.0364,107.704,4,0.183,GOSTO
+'Jezebel - Remastered',0.809,0.357,326173,0.328,0.000385,2,0.134,-7.547,0.0312,83.977,4,0.809,GOSTO
+'Love Is Stronger Than Pride - Remastered',0.872,0.357,257640,0.356,0.000786,9,0.106,-11.397,0.0309,87.486,4,0.872,GOSTO
+'Paradise - Remastered Version',0.401,0.655,216067,0.876,0.545,5,0.0783,-6.721,0.04,199.297,4,0.401,GOSTO
+'Nothing Can Come Between Us - Remastered',0.406,0.728,232667,0.68,0.34,5,0.0513,-9.488,0.0301,103.74,4,0.406,GOSTO
+'No Ordinary Love - Remastered',0.641,0.619,438707,0.486,0.00883,11,0.0918,-10.421,0.0396,166.146,4,0.641,GOSTO
+'Kiss of Life - Remastered',0.655,0.716,250653,0.582,0.0103,6,0.112,-8.114,0.0268,97.097,4,0.655,GOSTO
+'Feel No Pain - Remastered',0.0469,0.726,308787,0.519,0.00161,8,0.126,-7.885,0.0576,164.132,4,0.0469,GOSTO
+'Bullet Proof Soul - Remastered',0.195,0.645,325480,0.333,0.0062,11,0.129,-11.36,0.0391,158.091,4,0.195,GOSTO
+'Cherish the Day - Remastered',0.152,0.73,378627,0.544,0.115,1,0.121,-9.231,0.0466,80.029,4,0.152,GOSTO
+'Pearls - Remastered',0.926,0.144,272547,0.139,0.00696,7,0.104,-15.839,0.0298,89.108,1,0.926,GOSTO
+'By Your Side - Remastered',0.0352,0.644,279747,0.496,0.00549,11,0.0915,-10.17,0.0291,145.928,4,0.0352,GOSTO
+'Immigrant - Remastered',0.0323,0.761,227867,0.402,0.00175,2,0.132,-8.627,0.0636,170.052,4,0.0323,GOSTO
+'Flow - Remastered',0.0369,0.661,273493,0.411,0.514,7,0.104,-11.131,0.089,83.816,4,0.0369,GOSTO
+'King of Sorrow - Remastered',0.273,0.705,285587,0.485,0.168,8,0.0815,-9.306,0.0378,82.402,4,0.273,GOSTO
+'Primeiro Avião',0.0972,0.558,253787,0.582,0,0,0.102,-9.862,0.036,120.046,4,0.0972,GOSTO
+'Noites de Berlim',0.249,0.537,244413,0.479,0.000029,5,0.169,-10.403,0.0293,115.157,3,0.249,GOSTO
+Basta,0.0428,0.508,249147,0.719,0,9,0.0894,-10.151,0.0339,129.968,4,0.0428,GOSTO
+'Tango Novo',0.573,0.535,356080,0.511,0.000114,7,0.17,-10.824,0.0291,109.961,4,0.573,GOSTO
+'Sétima Maior',0.207,0.577,240867,0.349,0.000002,1,0.134,-12.748,0.0314,114.981,3,0.207,GOSTO
+Partindo,0.00542,0.558,221987,0.741,0,0,0.221,-8.894,0.0384,124.983,4,0.00542,GOSTO
+'Sobre Você',0.000077,0.526,250907,0.748,0,11,0.216,-9.048,0.0309,124.952,4,0.000077,GOSTO
+Talvez,0.00789,0.44,201107,0.514,0,11,0.168,-10.362,0.0288,150.079,3,0.00789,GOSTO
+Livre,0.021,0.56,227493,0.602,0,2,0.296,-9.777,0.0314,119.964,4,0.021,GOSTO
+Muda,0.165,0.414,323520,0.575,0,9,0.092,-9.799,0.0326,139.976,4,0.165,GOSTO
+'Pra Ser',0.109,0.499,239413,0.535,0.000013,2,0.343,-11.36,0.0279,135.052,4,0.109,GOSTO
+'Chacarera da Saudade',0.0237,0.448,291387,0.494,0,6,0.161,-10.225,0.033,120.127,3,0.0237,GOSTO
+'Fotos Instantâneas',0.332,0.533,235960,0.306,0.00131,4,0.215,-12.756,0.0302,120.042,3,0.332,GOSTO
+'Naquela Esquina',0.197,0.64,248000,0.295,0.000005,7,0.0886,-12.134,0.0311,120.15,4,0.197,GOSTO
+'Chacarera da Saudade - Ao Vivo',0.792,0.463,279889,0.442,0,6,0.327,-10.117,0.0307,125.037,3,0.792,GOSTO
+'Basta - Ao Vivo',0.581,0.353,241253,0.546,0,9,0.107,-9.898,0.0405,133.429,4,0.581,GOSTO
+'Partindo - Ao Vivo',0.558,0.433,210628,0.786,0,2,0.472,-8.536,0.0395,129.957,4,0.558,GOSTO
+'Pra Ser - Ao Vivo',0.326,0.339,344678,0.525,0.00003,2,0.333,-9.76,0.0341,136.143,4,0.326,GOSTO
+'Noites de Berlim - Ao Vivo',0.809,0.436,253461,0.393,0.00014,4,0.097,-11.151,0.0372,121.119,3,0.809,GOSTO
+'Martes - Ao Vivo',0.507,0.414,306302,0.542,0,0,0.19,-9.382,0.0314,125.734,4,0.507,GOSTO
+'Segunda-Feira - Ao Vivo',0.752,0.476,244047,0.44,0,9,0.0891,-10,0.0354,126.334,4,0.752,GOSTO
+'Sétima Maior - Ao Vivo',0.371,0.409,253798,0.42,0,1,0.111,-11.05,0.0465,124.589,3,0.371,GOSTO
+'Carta aos Desinteressados - Ao Vivo',0.55,0.685,254093,0.352,0,4,0.0687,-11.069,0.0481,127.883,4,0.55,GOSTO
+'Sinto Muito Blues - Ao Vivo',0.644,0.309,356617,0.473,0.000039,2,0.135,-10.142,0.0313,169.453,3,0.644,GOSTO
+'Montagem Sai do Chão',0.0468,0.422,182101,0.988,0.00922,9,0.93,-3.904,0.161,130.406,4,0.0468,NAO_GOSTO
+'Um Morto Muito Louco',0.132,0.494,52779,0.988,0.000003,11,0.91,-4.275,0.549,133.517,4,0.132,NAO_GOSTO
+Tchutchuca,0.42,0.558,139147,0.988,0,9,0.391,-3.97,0.447,135.348,4,0.42,NAO_GOSTO
+'Vira de Ladinho',0.37,0.662,78485,0.975,0.000002,11,0.364,-4.65,0.144,132.323,4,0.37,NAO_GOSTO
+'Dona Gigi / Atoladinha',0.524,0.612,137920,0.99,0,8,0.975,-3.675,0.241,131.249,4,0.524,NAO_GOSTO
+Descontrolada,0.0739,0.735,54912,0.982,0.0125,3,0.971,-4.101,0.0969,131.126,4,0.0739,NAO_GOSTO
+'Tchutchuca Treme o Bumbum',0.233,0.645,105152,0.93,0,3,0.935,-4.583,0.252,133.265,4,0.233,NAO_GOSTO
+'Planeta Dominado / Tropa de Elite / Rap Glamurosa',0.13,0.567,108256,0.94,0,10,0.947,-4.654,0.141,133.237,4,0.13,NAO_GOSTO
+'Namorar Pelado / Beija Beija Ta Calor',0.517,0.44,51264,0.998,0.00569,1,0.927,-3.585,0.597,133.95,4,0.517,NAO_GOSTO
+'Uh Papai Chegou / 4X4 / Trair a Minha Namorada / Red Label ou Ice',0.511,0.451,184711,0.972,0.000003,7,0.962,-3.626,0.514,132.311,4,0.511,NAO_GOSTO
+'Tranquilão / Vou Desafiar Você / Perder a Linha',0.502,0.585,497451,0.946,0,8,0.974,-4.254,0.169,136.004,4,0.502,NAO_GOSTO
+'Treme o Bumbum',0.593,0.632,182880,0.847,0,9,0.415,-4.006,0.0427,89.993,4,0.593,NAO_GOSTO
+'Cerol na Mão',0.265,0.574,204907,0.985,0.000003,6,0.966,-3.352,0.381,133.075,4,0.265,NAO_GOSTO
+'Me Usa',0.349,0.638,147808,0.985,0,11,0.35,-3.542,0.467,133.55,4,0.349,NAO_GOSTO
+'Copo de Vinho',0.278,0.616,94933,0.942,0,5,0.401,-5.036,0.0765,133.607,4,0.278,NAO_GOSTO
+'Só Zueira',0.142,0.673,115797,0.961,0,6,0.397,-3.867,0.0746,132.47,4,0.142,NAO_GOSTO
+'Rap da Felicidade / Rap das Armas',0.0275,0.559,121291,0.99,0,7,0.664,-3.607,0.397,133.986,4,0.0275,NAO_GOSTO
+'É o Pente',0.446,0.6,197611,0.992,0,1,0.517,-3.448,0.389,129.296,4,0.446,NAO_GOSTO
+'Ai Ai Ui Ui / Vem Kikando / Passinho do Bonequinho',0.172,0.637,231253,0.952,0,1,0.371,-3.505,0.176,128.938,4,0.172,NAO_GOSTO
+'Mistura Louca',0.378,0.34,125579,0.96,0,4,0.599,-4.503,0.717,129.296,4,0.378,NAO_GOSTO
+'choque térmico - ao vivo',0.342,0.737,180001,0.758,0,2,0.834,-5.508,0.0402,126.978,4,0.342,NAO_GOSTO
+'quando a bad bater - ao vivo',0.304,0.648,179722,0.789,0,1,0.532,-4.767,0.0414,128.124,4,0.304,NAO_GOSTO
+'sofrendo feito um louco - ao vivo',0.283,0.525,167927,0.762,0,7,0.235,-4.823,0.0668,125.678,4,0.283,NAO_GOSTO
+'mendigando amor - ao vivo',0.486,0.618,173871,0.851,0,0,0.134,-4.395,0.0557,127.977,4,0.486,NAO_GOSTO
+'ignore - ao vivo',0.313,0.696,188267,0.786,0,0,0.24,-5.997,0.0976,124.97,4,0.313,NAO_GOSTO
+'água com açúcar - ao vivo',0.144,0.457,249847,0.603,0,3,0.679,-7.729,0.0278,77.048,4,0.144,NAO_GOSTO
+'meu investimento - ao vivo',0.501,0.415,184846,0.787,0,11,0.748,-5.243,0.0343,147.639,4,0.501,NAO_GOSTO
+'princesa não levanta - ao vivo',0.61,0.577,193097,0.855,0,11,0.379,-4.837,0.0948,157.942,4,0.61,NAO_GOSTO
+'moça chique - ao vivo',0.563,0.311,186967,0.66,0,6,0.416,-5.516,0.0414,83.042,3,0.563,NAO_GOSTO
+'motel paraíso - ao vivo',0.607,0.329,199413,0.526,0.000041,0,0.113,-5.881,0.0269,100.617,4,0.607,NAO_GOSTO
+'tática infalível - ao vivo',0.162,0.712,198949,0.849,0,11,0.355,-5.94,0.0383,125.986,4,0.162,NAO_GOSTO
+'puxando o rodo - ao vivo',0.433,0.574,185481,0.791,0.000007,2,0.455,-4.859,0.0435,171.06,4,0.433,NAO_GOSTO
+'cê vai perder essa mulher - ao vivo',0.744,0.436,180187,0.583,0,9,0.905,-5.991,0.0323,118.894,4,0.744,NAO_GOSTO
+'flores, amor e pudim - ao vivo',0.725,0.333,235265,0.448,0,2,0.952,-6.12,0.0306,65.254,4,0.725,NAO_GOSTO
+'boa memória - ao vivo',0.759,0.394,214088,0.498,0,7,0.518,-6.853,0.0341,132.74,4,0.759,NAO_GOSTO
+'a - ao vivo',0.296,0.644,200713,0.697,0,11,0.642,-6.672,0.0706,127.917,4,0.296,NAO_GOSTO
+'pot-pourri: te vivo / sinais / você não sabe o que é amor / meteoro / amar não é pecado - ao vivo',0.0554,0.271,441736,0.804,0.000072,11,0.434,-7.827,0.328,72.475,4,0.0554,NAO_GOSTO
+'acordando o prédio - ao vivo',0.148,0.616,256813,0.874,0.00204,1,0.566,-6.33,0.0476,93.026,4,0.148,NAO_GOSTO
+'sofazinho - ao vivo',0.367,0.531,190682,0.841,0.000001,0,0.92,-5.905,0.0664,164.061,4,0.367,NAO_GOSTO
+'vingança - ao vivo',0.158,0.368,213345,0.85,0.000016,1,0.0594,-6.361,0.0642,110.537,3,0.158,NAO_GOSTO
